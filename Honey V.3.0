@@ -1,0 +1,470 @@
+--[[
+    Honey Main Script (Beta)
+
+    Made By: Verotra
+
+    Discord: https://discord.gg/Fd33j9pa
+    
+    NOTE: This is the beta version of Honey.
+    For testing purposes only.
+--]]
+local Window = Instance.new("ScreenGui")
+local Functions = Instance.new("Folder")
+local Classic = Instance.new("Frame")
+local Frame = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local Modern = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local TextButton_2 = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local Simple = Instance.new("Frame")
+local Frame_3 = Instance.new("Frame")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextButton_3 = Instance.new("TextButton")
+local Options = Instance.new("Frame")
+local Frame_4 = Instance.new("Frame")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local TextButton_5 = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local TextButton_6 = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+
+-- Properties
+
+Window.Name = "Window"
+Window.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Window.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Functions.Name = "Functions"
+Functions.Parent = Window
+
+Classic.Name = "Classic"
+Classic.Parent = Functions
+Classic.AnchorPoint = Vector2.new(0.5, 0.5)
+Classic.BackgroundColor3 = Color3.new(0.317647, 0.317647, 0.317647)
+Classic.BackgroundTransparency = 2.2351741291171123e-10
+Classic.BorderSizePixel = 0
+Classic.Position = UDim2.new(0.5, 0, 0.5, 0)
+Classic.Size = UDim2.new(0, 428, 0, 15)
+Classic.Visible = false
+
+Frame.Parent = Classic
+Frame.BackgroundColor3 = Color3.new(0.215686, 0.215686, 0.215686)
+Frame.BackgroundTransparency = 2.2351741291171123e-10
+Frame.BorderColor3 = Color3.new(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(-4.00230533e-07, 0, 0.972294092, 0)
+Frame.Size = UDim2.new(0, 428, 0, 255)
+
+Title.Name = "Title"
+Title.Parent = Frame
+Title.BackgroundColor3 = Color3.new(0.737255, 0.737255, 0.737255)
+Title.BackgroundTransparency = 1
+Title.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Title.Position = UDim2.new(0, 44, 0, 38)
+Title.Size = UDim2.new(1.01168227, -110, 0.486274511, 25)
+Title.Font = Enum.Font.SourceSansBold
+Title.Text = "Honey isn’t accessible in your area. Find out more: https://discord.gg/Fd33j9pa"
+Title.TextColor3 = Color3.new(1, 1, 1)
+Title.TextSize = 20
+Title.TextWrapped = true
+
+TextLabel.Parent = Classic
+TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel.BackgroundTransparency = 1
+TextLabel.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(0, 44, 0, 14)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Honey"
+TextLabel.TextColor3 = Color3.new(1, 1, 1)
+TextLabel.TextSize = 14
+
+TextButton.Parent = Classic
+TextButton.BackgroundColor3 = Color3.new(1, 1, 1)
+TextButton.BackgroundTransparency = 1
+TextButton.BorderColor3 = Color3.new(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.96196866, 0, 0, 0)
+TextButton.Size = UDim2.new(0, 17, 0, 14)
+TextButton.Font = Enum.Font.SourceSansBold
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.new(1, 1, 1)
+TextButton.TextSize = 14
+
+Modern.Name = "Modern"
+Modern.Parent = Functions
+Modern.AnchorPoint = Vector2.new(0.5, 0.5)
+Modern.BackgroundColor3 = Color3.new(0.164706, 0.164706, 0.164706)
+Modern.BackgroundTransparency = 2.2351741291171123e-10
+Modern.BorderSizePixel = 0
+Modern.Position = UDim2.new(0.5, 0, 0.5, 0)
+Modern.Size = UDim2.new(0, 381, 0, 15)
+Modern.Visible = false
+
+Frame_2.Parent = Modern
+Frame_2.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+Frame_2.BackgroundTransparency = 2.2351741291171123e-10
+Frame_2.BorderColor3 = Color3.new(0, 0, 0)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(-3.2039452e-07, 0, 0.972298205, 0)
+Frame_2.Size = UDim2.new(0, 381, 0, 259)
+
+TextButton_2.Parent = Modern
+TextButton_2.BackgroundColor3 = Color3.new(1, 1, 1)
+TextButton_2.BackgroundTransparency = 1
+TextButton_2.BorderColor3 = Color3.new(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.96196866, 0, 0, 0)
+TextButton_2.Size = UDim2.new(0, 17, 0, 14)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "X"
+TextButton_2.TextColor3 = Color3.new(1, 1, 1)
+TextButton_2.TextSize = 14
+
+TextLabel_2.Parent = Modern
+TextLabel_2.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_2.BackgroundTransparency = 1
+TextLabel_2.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Size = UDim2.new(0, 44, 0, 14)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Honey"
+TextLabel_2.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_2.TextSize = 14
+
+TextLabel_3.Parent = Modern
+TextLabel_3.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_3.BackgroundTransparency = 1
+TextLabel_3.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.0314960629, 0, 3.13333344, 0)
+TextLabel_3.Size = UDim2.new(0, 344, 0, 117)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Honey isn’t accessible in your area. Find out more: https://discord.gg/Fd33j9pa"
+TextLabel_3.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_3.TextSize = 18
+TextLabel_3.TextWrapped = true
+
+Simple.Name = "Simple"
+Simple.Parent = Functions
+Simple.AnchorPoint = Vector2.new(0.5, 0.5)
+Simple.BackgroundColor3 = Color3.new(0.164706, 0.164706, 0.164706)
+Simple.BackgroundTransparency = 2.2351741291171123e-10
+Simple.BorderSizePixel = 0
+Simple.Position = UDim2.new(0.5, 0, 0.5, 0)
+Simple.Size = UDim2.new(0, 447, 0, 15)
+Simple.Visible = false
+
+Frame_3.Parent = Simple
+Frame_3.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+Frame_3.BackgroundTransparency = 2.2351741291171123e-10
+Frame_3.BorderColor3 = Color3.new(0, 0, 0)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(-3.2039452e-07, 0, 0.972298205, 0)
+Frame_3.Size = UDim2.new(0, 447, 0, 259)
+
+TextLabel_4.Parent = Simple
+TextLabel_4.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_4.BackgroundTransparency = 1
+TextLabel_4.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Size = UDim2.new(0, 44, 0, 14)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Honey"
+TextLabel_4.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_4.TextSize = 14
+
+TextLabel_5.Parent = Simple
+TextLabel_5.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_5.BackgroundTransparency = 1
+TextLabel_5.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.0314960517, 0, 3.13333344, 0)
+TextLabel_5.Size = UDim2.new(0, 389, 0, 117)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "Honey isn’t accessible in your area. Find out more: https://discord.gg/Fd33j9pa"
+TextLabel_5.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_5.TextSize = 18
+TextLabel_5.TextWrapped = true
+
+TextButton_3.Parent = Simple
+TextButton_3.BackgroundColor3 = Color3.new(1, 1, 1)
+TextButton_3.BackgroundTransparency = 1
+TextButton_3.BorderColor3 = Color3.new(0, 0, 0)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Position = UDim2.new(0.96196866, 0, 0, 0)
+TextButton_3.Size = UDim2.new(0, 17, 0, 14)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "X"
+TextButton_3.TextColor3 = Color3.new(1, 1, 1)
+TextButton_3.TextSize = 14
+
+Options.Name = "Options"
+Options.Parent = Window
+Options.AnchorPoint = Vector2.new(0.5, 0.5)
+Options.BackgroundColor3 = Color3.new(0.164706, 0.164706, 0.164706)
+Options.BackgroundTransparency = 2.2351741291171123e-10
+Options.BorderSizePixel = 0
+Options.Position = UDim2.new(0.5, 0, 0.390547276, 0)
+Options.Size = UDim2.new(0, 305, 0, 15)
+
+Frame_4.Parent = Options
+Frame_4.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+Frame_4.BorderColor3 = Color3.new(0, 0, 0)
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(-4.00230533e-07, 0, 0.972295582, 0)
+Frame_4.Size = UDim2.new(0, 305, 0, 168)
+
+TextLabel_6.Parent = Options
+TextLabel_6.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_6.BackgroundTransparency = 1
+TextLabel_6.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Size = UDim2.new(0, 44, 0, 14)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "Honey"
+TextLabel_6.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_6.TextSize = 14
+
+TextButton_4.Parent = Options
+TextButton_4.BackgroundColor3 = Color3.new(0.333333, 0.666667, 1)
+TextButton_4.BorderColor3 = Color3.new(0, 0, 0)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Position = UDim2.new(0.0521892607, 0, 1.86547649, 0)
+TextButton_4.Size = UDim2.new(0, 273, 0, 28)
+TextButton_4.Font = Enum.Font.SourceSansBold
+TextButton_4.Text = "2017 UI [ OUTDATED! ]"
+TextButton_4.TextColor3 = Color3.new(1, 1, 1)
+TextButton_4.TextSize = 18
+
+UICorner.Parent = TextButton_4
+
+TextButton_5.Parent = Options
+TextButton_5.BackgroundColor3 = Color3.new(0.333333, 0.666667, 1)
+TextButton_5.BorderColor3 = Color3.new(0, 0, 0)
+TextButton_5.BorderSizePixel = 0
+TextButton_5.Position = UDim2.new(0.0521892607, 0, 4.37023735, 0)
+TextButton_5.Size = UDim2.new(0, 273, 0, 28)
+TextButton_5.Font = Enum.Font.SourceSansBold
+TextButton_5.Text = "Simple UI"
+TextButton_5.TextColor3 = Color3.new(1, 1, 1)
+TextButton_5.TextSize = 18
+
+UICorner_2.Parent = TextButton_5
+
+TextButton_6.Parent = Options
+TextButton_6.BackgroundColor3 = Color3.new(0.333333, 0.666667, 1)
+TextButton_6.BorderColor3 = Color3.new(0, 0, 0)
+TextButton_6.BorderSizePixel = 0
+TextButton_6.Position = UDim2.new(0.0521892607, 0, 7.01428652, 0)
+TextButton_6.Size = UDim2.new(0, 273, 0, 28)
+TextButton_6.Font = Enum.Font.SourceSansBold
+TextButton_6.Text = "Modern UI"
+TextButton_6.TextColor3 = Color3.new(1, 1, 1)
+TextButton_6.TextSize = 18
+
+UICorner_3.Parent = TextButton_6
+
+-- Scripts
+
+local function QVGUMOM_fake_script() -- Classic.LocalScript 
+	local script = Instance.new('LocalScript', Classic)
+
+	local UIS = game:GetService("UserInputService")
+	local frame = script.Parent
+	local dragging, dragInput, dragStart, startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	-- var?
+	frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			dragging = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	frame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement then
+			dragInput = input
+		end
+	end)
+	-- var
+	UIS.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+	
+end
+coroutine.wrap(QVGUMOM_fake_script)()
+local function VLGRM_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local button = script.Parent
+	button.MouseButton1Click:Connect(function()
+		button.Parent:Destroy()
+	end)
+	
+end
+coroutine.wrap(VLGRM_fake_script)()
+local function OZHBRQT_fake_script() -- Modern.LocalScript 
+	local script = Instance.new('LocalScript', Modern)
+
+	local UIS = game:GetService("UserInputService")
+	local frame = script.Parent
+	local dragging, dragInput, dragStart, startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	-- var?
+	frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			dragging = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	frame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement then
+			dragInput = input
+		end
+	end)
+	-- var
+	UIS.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+	
+end
+coroutine.wrap(OZHBRQT_fake_script)()
+local function RNJEX_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	local button = script.Parent
+	button.MouseButton1Click:Connect(function()
+		button.Parent:Destroy()
+	end)
+	
+end
+coroutine.wrap(RNJEX_fake_script)()
+local function MBZRBHC_fake_script() -- Simple.LocalScript 
+	local script = Instance.new('LocalScript', Simple)
+
+	local UIS = game:GetService("UserInputService")
+	local frame = script.Parent
+	local dragging, dragInput, dragStart, startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	-- var?
+	frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			dragging = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	frame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement then
+			dragInput = input
+		end
+	end)
+	-- var
+	UIS.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+	
+end
+coroutine.wrap(MBZRBHC_fake_script)()
+local function UGCD_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	local button = script.Parent
+	button.MouseButton1Click:Connect(function()
+		button.Parent:Destroy()
+	end)
+	
+end
+coroutine.wrap(UGCD_fake_script)()
+local function ZHWL_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	local button = script.Parent
+	local options = button.Parent
+	local window = options.Parent
+	local funcFolder = window:FindFirstChild("Functions")
+	local classicFrame = funcFolder and funcFolder:FindFirstChild("Classic")
+	
+	button.MouseButton1Click:Connect(function()
+		if options then options:Destroy() end
+		if classicFrame then classicFrame.Visible = true end
+	end)
+end
+coroutine.wrap(ZHWL_fake_script)()
+local function ZUDIZ_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	local button = script.Parent
+	local options = button.Parent
+	local window = options.Parent
+	local funcFolder = window:FindFirstChild("Functions")
+	local simpleFrame = funcFolder and funcFolder:FindFirstChild("Simple")
+	
+	button.MouseButton1Click:Connect(function()
+		if options then options:Destroy() end
+		if simpleFrame then simpleFrame.Visible = true end
+	end)
+	
+end
+coroutine.wrap(ZUDIZ_fake_script)()
+local function JWWC_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+
+	local button = script.Parent
+	local options = button.Parent
+	local window = options.Parent
+	local funcFolder = window:FindFirstChild("Functions")
+	local simpleFrame = funcFolder and funcFolder:FindFirstChild("Modern")
+	
+	button.MouseButton1Click:Connect(function()
+		if options then options:Destroy() end
+		if simpleFrame then simpleFrame.Visible = true end
+	end)
+	
+end
+coroutine.wrap(JWWC_fake_script)()
